@@ -8,5 +8,8 @@ module.exports = {
   output: {
     filename: './src/index.js',
     path: outputPath
+  },
+  devServer: {
+    contentBase:outputPath
   }
 }
