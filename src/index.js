@@ -1,14 +1,7 @@
-import _ from 'lodash'
-import './style.css'
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-console.log(style);
-function component() {
-  const element = document.createElement('div')
-  const array = ["Hello", "webpack", "!!"]
-  element.innerHTML = _.join(array, ' ')
-  return element;
-}
-
-
-document.body.appendChild(component());
-document.body.classList.add('background')
+ReactDOM.render(
+  <div>Hello, React!</div>,
+  document.getElementById('root')
+)
