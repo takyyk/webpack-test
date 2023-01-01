@@ -19,8 +19,8 @@
   "homepage": "https://github.com/takaykuki0310/webpack-test#readme",
   "devDependencies": {
     "live-server": "^1.2.1",
-    "webpack": "^4.29.0",
-    "webpack-cli": "^3.2.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
